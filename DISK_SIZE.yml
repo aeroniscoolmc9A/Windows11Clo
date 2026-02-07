@@ -1,0 +1,7 @@
+environment:
+  DISK2_SIZE: "32G"
+  DISK3_SIZE: "64G"
+
+volumes:
+  - ./example:/storage2
+  - ./example:/storage3
